@@ -5,7 +5,7 @@
         <version>1.0.0.0</version>
         <authors>Generoso Martello, Alexander Sidorenko</authors>
         <owners>Bounz</owners>
-        <licenseUrl>https://github.com/Bounz/serialport-lib-dotnet/blob/master/LICENSE</licenseUrl>
+        <license type="expression">GPL-3.0-only</license>
         <projectUrl>https://github.com/Bounz/serialport-lib-dotnet/</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Serial Port libray for .Net / Mono / .Net Core
@@ -27,5 +27,6 @@
     </metadata>
     <files>
         <file src="bin\Debug\netstandard2.0\SerialPortLibNetCore.dll" target="lib\netstandard2.0\SerialPortLibNetCore.dll" />
+        <file src="..\LICENSE.txt" target="" />
     </files>
 </package>
