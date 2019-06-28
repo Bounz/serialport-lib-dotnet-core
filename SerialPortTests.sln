@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialPortLibNetCore", "SerialPortLibNetCore\SerialPortLibNetCore.csproj", "{2864508E-A889-49C1-B64A-8DDF3CEFFEF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{E240DF38-9715-445C-85D0-054DAAB9C850}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2864508E-A889-49C1-B64A-8DDF3CEFFEF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2864508E-A889-49C1-B64A-8DDF3CEFFEF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2864508E-A889-49C1-B64A-8DDF3CEFFEF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2864508E-A889-49C1-B64A-8DDF3CEFFEF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E240DF38-9715-445C-85D0-054DAAB9C850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E240DF38-9715-445C-85D0-054DAAB9C850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E240DF38-9715-445C-85D0-054DAAB9C850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E240DF38-9715-445C-85D0-054DAAB9C850}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

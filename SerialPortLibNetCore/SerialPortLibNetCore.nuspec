@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+    <metadata>
+        <id>SerialPortLibNetCore</id>
+        <version>1.0.0.0</version>
+        <authors>Generoso Martello, Alexander Sidorenko</authors>
+        <owners>Bounz</owners>
+        <licenseUrl>https://github.com/Bounz/serialport-lib-dotnet/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/Bounz/serialport-lib-dotnet/</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Serial Port libray for .Net / Mono / .Net Core
+            Forked from https://github.com/genielabs/serialport-lib-dotnet by Generoso Martello
+            Features
+            - Easy to use
+            - Event driven
+            - Hot plug
+            - Automatically restabilish connection on error/disconnect
+            - It overcomes the lack of *DataReceived* event in Mono</description>
+        <summary>Serial Port libray for .Net / Mono / .Net Core</summary>
+        <dependencies>
+            <group targetFramework=".NETStandard2.0">
+                <dependency id="Microsoft.Extensions.Logging.Abstractions" version="2.0.0" exclude="Build,Analyzers" />
+                <dependency id="SerialPortStream" version="2.1.2" exclude="Build,Analyzers" />
+            </group>
+        </dependencies>
+        <tags>serial port</tags>
+    </metadata>
+    <files>
+        <file src="bin\Debug\netstandard2.0\SerialPortLibNetCore.dll" target="lib\netstandard2.0\SerialPortLibNetCore.dll" />
+    </files>
+</package>
