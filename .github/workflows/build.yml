@@ -13,5 +13,3 @@ jobs:
       with:
         dotnet-version: '2.2.103' # SDK Version to use.
     - run: dotnet build SerialPortLibNetCore.sln
-    - name: Run a one-line script
-      run: Job done!
